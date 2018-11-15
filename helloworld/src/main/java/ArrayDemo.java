@@ -3,6 +3,7 @@ import java.util.List;
 
 /**
  * @author
+ * 集合的学习文件，Array部分
  */
 public class ArrayDemo {
     public static void main(String[] args){
@@ -66,7 +67,9 @@ public class ArrayDemo {
         }*/
 
 
+        //ArrayList是List接口的实现类
         ArrayList ar=new ArrayList();
+        //void add(int index,Object o)在列表的指定位置上插⼊元素，index从0开始计数
         ar.add("aa");
         ar.add(1);
         ar.add(34);
@@ -75,30 +78,35 @@ public class ArrayDemo {
         ar.add("oh");
         ar.add(2);
         ar.add("set");
-        for (Object c:ar){
-            System.out.println("ArrayList对象："+c);
-        }
-
-//        获取list元素对象
-//        System.out.println("获取list第0个元素："+ar.get(0));
-//        移除指定角标的值
-//        ar.remove(0);
-//        for(Object cc:ar){
-//            System.out.println("remove后的list："+cc);
+        ar.add(1,"the second");
+        ar.add(3,"the fourth");
+//        System.out.println("ArrayList全部对象："+ar);
+//        for (Object c:ar){
+//            System.out.println("ArrayList单个对象："+c);
 //        }
 
-//        元素的修改
-//        ar.set(0,"java");
-//        for(Object ccc:ar){
-//            System.out.println("修改后的list："+ccc);
-//        }
+/*        //获取list元素对象，Object get(int index)返回指定索引上的元素！
+       System.out.println("获取list第0个元素："+ar.get(0));*/
+/*        //移除指定角标的值，Object remove(int index)移除指定下标上的元素，返回移除前的对象
+        ar.remove(0);
+        for(Object cc:ar){
+            System.out.println("remove后的list："+cc);
+        }*/
 
-        /*
-//        获取集合的一部分
+/*        //元素的修改,Object set(int index,Object o)修改指定下标上的元素，返回修改前的元素
+        ar.set(0,"java");
+        for(Object ccc:ar){
+            System.out.println("修改后的list："+ccc);
+        }*/
+
+
+/*        //获取集合的一部分,List subList(int start,int end)获取集合中的⼀部分，包含头，不包含尾，返回新集合
         List list = ar.subList(0,4);
         for(Object ll:list){
             System.out.println("获取集合值："+ll);
         }*/
+
+
 
     }
 }

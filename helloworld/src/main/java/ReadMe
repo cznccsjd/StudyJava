@@ -1,7 +1,13 @@
 HelloWorld.java     输出、if、for语句
 ArrayDemo.java      数组、集合list
-HashMapDemo.java
+HashMapDemo.java    集合中Map（HashMap学习）
 nainFunc.java       学习main函数
 test002.java     构造函数的学习文档(无参构造函数)
 test003.java    构造函数的学习（有参构造函数和无参构造函数）（给属性赋值）
 TestContructor.java    学习构造函数重载
+Student.java        学习面向对象 类
+OOTest01.java       学习类
+VarTest.java        学习局部变量、成员变量
+Customer.java       学习封装
+Customer02.java     配合Customer学习封装
+
